@@ -10,4 +10,8 @@
 #### _game_ubuntu.sh
 > ubuntu版wireguard+udpspeeder+udp2raw一键脚本 | ubuntu >= 14.04
 
+yum install -y wget
 
+wget https://raw.githubusercontent.com/ShuKayLee/WireGuard/master/wireguard_install.sh && chmod +x wireguard_install.sh && ./wireguard_install.sh
+
+./wireguard_install.sh
